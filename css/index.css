@@ -204,34 +204,36 @@ footer nav a {
 }
 
 .aboutdiv{
-    border-bottom:1px dotted black;
+    
+    position:relative;
+    right:-20px;
 }
 .aboutdiv p{
     margin-bottom:20px;
 }
 
-.middle-content{
+.middle-content2{
+    border-top:1px dashed black;
+    padding-top:20px;
     margin-top: 20px;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
 }
 .bbox{
-    border-bottom:1px dotted black;
+    border-bottom:1px dashed black;
     width:45%;
     display:flex;
     flex-direction:column;
     margin:10px;
 }
 .bbox h2{
-    margin-bottom:20px;
+    
     margin-top:10px;
-    position: relative;
-    left:-7px;
+   
 }
 .bbox p{
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-bottom:15px;
     line-height:20px;
 }
 .learnmore{
@@ -243,6 +245,8 @@ footer nav a {
 }
 
 .workdiv{
-    margin-top:50px;
+    margin-top:35px;
     margin-bottom:25px;
+    position:relative;
+    right:-20px;
 }
