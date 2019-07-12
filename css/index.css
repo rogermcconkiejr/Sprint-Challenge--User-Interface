@@ -70,7 +70,25 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.header1 nav{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
 
+.imglogo{
+    margin-bottom:40px;
+    margin-top:20px;
+}
+nav a {
+    text-decoration:none;
+    color:black;
+}
+.img1{
+    display:block;
+	margin:auto;
+	margin-bottom:25px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +122,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box1 {
+    background:teal;
+    color: white;
+}
+.box2 {
+    background:gold;
+    color: white;
+}
+.box3 {
+    background:cadetblue;
+    color: white;
+}
+.box4 {
+    background:coral;
+    color: white;
+}
+.box5 {
+    background:crimson;
+    color: white;
+}
+.box6 {
+    background:forestgreen;
+    color: white;
+}
+.box7 {
+    background:darkorchid;
+    color: white;
+}
+.box8 {
+    background:hotpink;
+    color: white;
+}
+.box9 {
+    background:indigo;
+    color: white;
+}
+.box10 {
+    background:dodgerblue;
+    color: white;
 }
 
 .bottom-content {
@@ -143,4 +200,80 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+.img2{
+    display:block;
+	margin:auto;
+	margin-bottom:25px;
+}
+
+.aboutdiv{
+    
+    position:relative;
+    right:-20px;
+}
+.aboutdiv p{
+    margin-bottom:20px;
+}
+
+.middle-content2{
+    border-top:1px dashed black;
+    padding-top:20px;
+    margin-top: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.bbox{
+    border-bottom:1px dashed black;
+    width:45%;
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+}
+.bbox h2{
+    
+    margin-top:10px;
+   
+}
+.bbox p{
+    margin-bottom:15px;
+    line-height:20px;
+}
+.learnmore{
+    border-radius:10px;
+    border:2px solid black;
+    width:115px;
+    height:35px;
+    margin-bottom:15px;
+}
+
+.workdiv{
+    margin-top:35px;
+    margin-bottom:25px;
+    position:relative;
+    right:-20px;
+}
+
+.learnmore:hover{
+    background:black;
+    color:white;
+}
+.header1 nav a:hover{
+    color:red;
+}
+footer nav a:hover{
+    color:red;
+}
+
+.box:hover{
+    border:1px solid black;
+    background:whitesmoke;
+    color:red;
 }
