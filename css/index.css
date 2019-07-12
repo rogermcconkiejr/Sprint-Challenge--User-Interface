@@ -123,40 +123,50 @@ nav a {
     width: 12.5%;
     height: 100px;
     margin: 20px 2.5%;
-    color: white;
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .box1 {
     background:teal;
+    color: white;
 }
 .box2 {
     background:gold;
+    color: white;
 }
 .box3 {
     background:cadetblue;
+    color: white;
 }
 .box4 {
     background:coral;
+    color: white;
 }
 .box5 {
     background:crimson;
+    color: white;
 }
 .box6 {
     background:forestgreen;
+    color: white;
 }
 .box7 {
     background:darkorchid;
+    color: white;
 }
 .box8 {
     background:hotpink;
+    color: white;
 }
 .box9 {
     background:indigo;
+    color: white;
 }
 .box10 {
     background:dodgerblue;
+    color: white;
 }
 
 .bottom-content {
@@ -249,4 +259,21 @@ footer nav a {
     margin-bottom:25px;
     position:relative;
     right:-20px;
+}
+
+.learnmore:hover{
+    background:black;
+    color:white;
+}
+.header1 nav a:hover{
+    color:red;
+}
+footer nav a:hover{
+    color:red;
+}
+
+.box:hover{
+    border:1px solid black;
+    background:whitesmoke;
+    color:red;
 }
